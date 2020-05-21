@@ -15,7 +15,7 @@ description = '''A bot for playing music from Spotify.'''
 
 logging.basicConfig(level=logging.INFO)
 
-bot = commands.Bot(command_prefix=config.prefix, description=description)
+bot = commands.Bot(command_prefix=config.m!, description=description)
 
 @bot.event
 async def on_ready():
@@ -48,4 +48,4 @@ playlist = ClearQueue()
 bot.add_cog(search.Search(bot, session, playlist))
 bot.add_cog(music.Music(bot, session, playlist))
 
-bot.run(config.token)
+bot.run(config.NzEzMDgxNjg0NDkyMjg4MDYx.XsbH5g.fn_rgIE4QvQVuRvUwEhX415kjwo)
